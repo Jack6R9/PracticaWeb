@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using PracticaWeb.Models;
+using PracticaWeb.Modelos.Models;
 using System.Diagnostics;
 
-namespace PracticaWeb.Controllers
+namespace PracticaWeb.Areas.Inventario.Controllers
 {
+    [Area("Inventario")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
